@@ -1,0 +1,59 @@
+{
+  "name": "listen-together",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@sentry/react": "^7.119.0",
+    "@supabase/supabase-js": "^2.26.0",
+    "@uidotdev/usehooks": "^2.4.1",
+    "axios": "^0.27.2",
+    "he": "^1.2.0",
+    "nanoid": "^5.0.7",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-error-boundary": "^4.0.12",
+    "react-popper": "^2.3.0",
+    "react-query": "^3.39.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-web-share": "^2.0.2",
+    "react-youtube": "^10.1.0",
+    "tailwind-override": "^0.6.1",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "analyze": "npm run build -- --stats && yarn webpack-bundle-analyzer ./build/bundle-stats.json",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "react-app-rewired": "^2.2.1",
+    "supabase": "^1.190.0",
+    "tailwindcss": "^3.0.24",
+    "webpack-bundle-analyzer": "^4.6.1"
+  }
+}
