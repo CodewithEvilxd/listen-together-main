@@ -54,13 +54,13 @@ const Landing = () => {
         </a>
         <a
           target="_blank"
-          href="https://www.linkedin.com/in/aryan-mehrabi/"
+          href="http://"
           rel="noreferrer"
           className="text-xl mx-4 my-4 p-1"
         >
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href="mailto:aryan.me77@yahoo.com" className="text-xl mx-4 my-4 p-1">
+        <a href="mailto:codewithevilxd@gmail.com" className="text-xl mx-4 my-4 p-1">
           <i className="fa-solid fa-envelope"></i>
         </a>
       </footer>
